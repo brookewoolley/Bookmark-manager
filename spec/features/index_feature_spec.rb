@@ -1,6 +1,6 @@
 require_relative '../../app.rb'
 
-feature 'index ' do
+feature 'index' do
 
   scenario "expect index page to have text" do
     visit("/")

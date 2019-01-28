@@ -1,0 +1,36 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/brookewoolley/Projects/Bookmark/app.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/index_feature_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1548693239
+  }
+}
