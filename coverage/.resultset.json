@@ -13,8 +13,24 @@
         1,
         null,
         null,
+        1,
+        null,
+        null,
+        null,
         null,
         1,
+        null,
+        null
+      ],
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/bookmarks_feature_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
         null,
         null
       ],
@@ -31,6 +47,6 @@
         null
       ]
     },
-    "timestamp": 1548693239
+    "timestamp": 1548693780
   }
 }
