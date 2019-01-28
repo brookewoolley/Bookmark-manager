@@ -10,6 +10,12 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
+    @bookmarks = [
+      "https://github.com/makersacademy/",
+      "https://github.com/brookewoolley",
+      "https://www.bbc.co.uk/"
+    ]
+    @bookmarks.join
     erb :bookmarks
   end
 
