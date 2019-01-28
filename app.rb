@@ -6,11 +6,11 @@ class BookmarkManager < Sinatra::Base
   set :session_secret, 'super secret'
 
   get '/' do
-  "Hello World"
+    erb :index
   end
 
   get '/bookmarks' do
-    
+    erb :bookmarks
   end
 
 
