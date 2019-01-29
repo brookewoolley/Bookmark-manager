@@ -6,9 +6,9 @@ RSpec.describe Bookmark do
     it 'returns a list of bookmarks' do
       bookmarks = Bookmark.all
 
-      expect(bookmarks).to include("https://github.com/makersacademy/")
-      expect(bookmarks).to include("https://github.com/brookewoolley")
-      expect(bookmarks).to include("https://www.bbc.co.uk/")
+      expect(bookmarks).to include("http://www.makersacademy.com")
+      expect(bookmarks).to include("http://www.destroyallsoftware.com")
+      expect(bookmarks).to include("http://www.google.com")
     end
   end
 

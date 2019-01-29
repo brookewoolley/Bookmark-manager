@@ -5,9 +5,9 @@ feature 'bookmarks' do
   scenario "expect there to be a bookmarks page" do
     visit("/bookmarks")
     expect(page).to have_content("Bookmarks")
-    expect(page).to have_content("https://github.com/makersacademy/")
-    expect(page).to have_content("https://github.com/brookewoolley")
-    expect(page).to have_content("https://www.bbc.co.uk/")
+    expect(page).to have_content("http://www.makersacademy.com")
+    expect(page).to have_content("http://www.destroyallsoftware.com")
+    expect(page).to have_content("http://www.google.com")
   end
 
 end
