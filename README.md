@@ -25,6 +25,14 @@ As a user,
 I want to be able to look through a list of bookmarks
 ```
 
+# User story 2
+
+```
+As a user,
+So I can store a website link
+I want to add the website to a bookmark manager
+```
+
 # Domain Model
 
 ![domain model](./public/images/bookmark_manager_1.png)

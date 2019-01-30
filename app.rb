@@ -7,14 +7,22 @@ class BookmarkManager < Sinatra::Base
   set :session_secret, 'super secret'
 
   get '/' do
-    erb :index
+    'Bookmark Manager'
   end
 
-  get '/bookmarks' do
+  get '/bookmarks/' do
     @bookmarks = Bookmark.all
-    erb :bookmarks
+    erb :'bookmarks/index'
   end
 
+  get '/bookmarks/add_bookmark' do
+    erb :'bookmarks/add_bookmark'
+  end
+
+  post '/bookmarks/' do
+    Bookmark.add(url: params[:url], title: params[:title])
+    redirect '/bookmarks/'
+  end
 
   run! if app_file == $0
 
