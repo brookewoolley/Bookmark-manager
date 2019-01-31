@@ -38,5 +38,4 @@ class Bookmark
     end
   end
 
-
 end

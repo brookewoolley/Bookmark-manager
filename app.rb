@@ -3,7 +3,7 @@ require './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base
 
-  enable :sessions
+  enable :sessions 
   set :session_secret, 'super secret'
 
   get '/' do
