@@ -37,4 +37,14 @@ RSpec.describe Bookmark do
 
   end
 
+  describe '#delete' do
+
+    it 'deletes a chosen bookmark' do
+      Bookmark.add(url: 'http://google.com', title: 'Google')
+      Bookmark.delete(id: 1)
+      expect(Bookmark.all).to be_empty
+    end
+
+  end
+
 end
