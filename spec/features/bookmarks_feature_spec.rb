@@ -1,7 +1,3 @@
-require 'pg'
-
-require_relative './../../app.rb'
-
 feature 'index' do
 
   scenario "expect there to be a bookmarks page" do

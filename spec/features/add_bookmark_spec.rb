@@ -1,6 +1,3 @@
-require 'pg'
-
-require_relative './../../app.rb'
 
 feature 'add_bookmark' do
 

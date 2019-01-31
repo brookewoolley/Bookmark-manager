@@ -73,9 +73,6 @@
         null
       ],
       "/Users/brookewoolley/Projects/Bookmark/spec/features/add_bookmark_spec.rb": [
-        1,
-        null,
-        1,
         null,
         1,
         null,
@@ -99,10 +96,6 @@
         1,
         null,
         1,
-        null,
-        1,
-        null,
-        1,
         1,
         1,
         null,
@@ -111,6 +104,14 @@
         1,
         1,
         null,
+        null,
+        null
+      ],
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/deleting_bookmark_feature_spec.rb": [
+        null,
+        1,
+        null,
+        1,
         null,
         null
       ],
@@ -177,6 +178,6 @@
         null
       ]
     },
-    "timestamp": 1548936541
+    "timestamp": 1548946639
   }
 }
