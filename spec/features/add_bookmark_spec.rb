@@ -1,6 +1,4 @@
-
 feature 'add_bookmark' do
-
   scenario "expect to be able to enter a link via a form" do
     visit("/bookmarks/add_bookmark")
     fill_in('url', with: 'https://www.theguardian.com/uk')
@@ -11,6 +9,4 @@ feature 'add_bookmark' do
 
     expect(page).to have_link('The Guardian', href: 'https://www.theguardian.com/uk')
   end
-
-
 end
