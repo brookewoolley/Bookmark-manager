@@ -9,8 +9,8 @@
     <ul>
     <% @bookmarks.each do |bookmark| %>
     <li><a href="<%= bookmark.url %>">
-      <%= bookmark.title %>
-    </a></li>
+      <%= bookmark.title %></a>
+       <form action="/bookmarks/" method="post"><input type="submit" name="delete Test Website" value="x"></li>
     <% end %>
     </ul>
 

@@ -5,6 +5,7 @@ feature 'delete' do
     fill_in 'title', with: 'Test Website'
     click_button 'Submit'
     expect(page).to have_content 'Test Website'
-    click_button 'delete Test Website'
+    # click_button 'delete Test Website'
+    find("[name='delete Test Website']").click
   end
 end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/app.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/app.rb": [
         1,
         1,
         null,
@@ -12,6 +12,15 @@
         null,
         1,
         1,
+        null,
+        null,
+        1,
+        4,
+        4,
+        null,
+        null,
+        1,
+        2,
         null,
         null,
         1,
@@ -20,19 +29,10 @@
         null,
         null,
         1,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
-        null,
-        null,
-        1,
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/lib/bookmark.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/lib/bookmark.rb": [
         1,
         null,
         1,
@@ -40,57 +40,53 @@
         1,
         null,
         1,
-        17,
-        17,
-        17,
+        20,
+        20,
+        20,
         null,
         null,
         1,
-        4,
-        4,
+        5,
+        5,
         null,
         0,
         null,
         null,
-        4,
-        4,
-        8,
+        5,
+        5,
+        10,
         null,
         null,
         null,
         null,
         1,
-        9,
-        9,
+        10,
+        10,
         null,
         0,
         null,
         null,
-        9,
-        9,
+        10,
+        10,
         null,
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/spec/features/add_bookmark_spec.rb": [
-        null,
-        1,
-        null,
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/add_bookmark_spec.rb": [
         1,
         1,
         1,
         1,
         1,
+        1,
         null,
         null,
         null,
         1,
-        null,
-        null,
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/spec/features/bookmarks_feature_spec.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/bookmarks_feature_spec.rb": [
         1,
         null,
         1,
@@ -107,7 +103,7 @@
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/spec/features/deleting_bookmark_feature_spec.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/deleting_bookmark_feature_spec.rb": [
         1,
         1,
         1,
@@ -115,11 +111,12 @@
         1,
         1,
         1,
+        null,
         1,
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/spec/features/index_feature_spec.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/spec/features/index_feature_spec.rb": [
         null,
         1,
         null,
@@ -130,7 +127,7 @@
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/spec/units/bookmark_spec.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/spec/units/bookmark_spec.rb": [
         1,
         1,
         null,
@@ -172,7 +169,7 @@
         null,
         null
       ],
-      "/Users/david/Desktop/projects/bookmark_challenge/with_Brooke/Bookmark-manager/spec/database_helpers.rb": [
+      "/Users/brookewoolley/Projects/Bookmark/spec/database_helpers.rb": [
         1,
         null,
         1,
@@ -181,6 +178,6 @@
         null
       ]
     },
-    "timestamp": 1548947589
+    "timestamp": 1548948599
   }
 }
