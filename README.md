@@ -33,6 +33,15 @@ So I can store a website link
 I want to add the website to a bookmark manager
 ```
 
+# User story 3
+
+```
+As a user,
+When I no longer need to store a website link
+I want to delete the website from the database
+```
+
+
 # Domain Model
 
 ![domain model](./public/images/bookmark_manager_1.png)
