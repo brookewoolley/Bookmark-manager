@@ -24,6 +24,19 @@ class BookmarkManager < Sinatra::Base
     redirect '/bookmarks/'
   end
 
+  post '/bookmarks/:id/delete' do
+    p params[:id]
+    # if ENV['ENVIRONMENT'] == 'test'
+    #   connection = PG.connect(dbname: 'bookmark_manager_test')
+    # else
+    #   connection = PG.connect(dbname: 'bookmark_manager')
+    # end
+    #
+    # connection.exec("DELETE FROM bookmarks WHERE ")
+
+    redirect '/bookmarks/'
+  end
+
   run! if app_file == $0
 
 end

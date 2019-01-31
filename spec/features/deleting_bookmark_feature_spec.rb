@@ -7,5 +7,6 @@ feature 'delete' do
     expect(page).to have_content 'Test Website'
     # click_button 'delete Test Website'
     find("[name='delete Test Website']").click
+    expect(page).not_to have_content 'Test Website'
   end
 end
